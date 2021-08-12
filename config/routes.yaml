@@ -1,0 +1,3 @@
+index:
+   path: /wp-json/app/api/aa/
+   controller: App\Controller\LuckyController::number
