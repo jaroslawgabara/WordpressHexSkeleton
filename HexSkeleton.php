@@ -9,5 +9,4 @@ Author URI:  http://link to your website
 License:     GPL2 etc
 License URI: http://link to your plugin license
 */
-include ('config.php');
 include ('public/app.php');

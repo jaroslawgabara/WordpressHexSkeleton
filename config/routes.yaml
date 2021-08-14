@@ -1,3 +1,7 @@
 index:
    path: /wp-json/app/api/aa/
    controller: App\Controller\LuckyController::number
+
+test:
+   path: /wp-json/app/api/test/
+   controller: App\Infrastructure\Presentation\Controller\TestController::test

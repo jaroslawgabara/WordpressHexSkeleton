@@ -3,7 +3,7 @@
 use App\Kernel;
 use Symfony\Component\HttpFoundation\Request;
 
-$name;
+$name = 'app';
 
 add_action( 'rest_api_init', function () use ($name) {
     register_rest_route( $name, '/api/(.*?)', array(
